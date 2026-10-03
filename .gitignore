@@ -1,0 +1,24 @@
+# 构建产物
+android/app/build/
+android/.gradle/
+android/build/
+android/local.properties
+android/.idea/
+*.iml
+
+# Gradle
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradlew
+android/gradlew.bat
+.gradle/
+
+# 中间数据（可由管线重新生成）
+web/data/ocr_cache.json
+web/data/questions_ocr.json
+web/data/questions_text.json
+
+# 临时文件
+*~
+.DS_Store
+Thumbs.db
+_shot_*.html
