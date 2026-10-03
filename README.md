@@ -60,7 +60,12 @@
 
 ### 方式一：直接安装 APK（推荐）
 
-从 [`release/`](release/) 目录下载 `guowang-computer-quiz-v1.0.apk`，传到 Android 手机安装即可。
+从 [`release/`](release/) 目录下载最新的 `guowang-computer-quiz-v1.1.apk`，传到 Android 手机安装即可。
+
+| 版本 | 文件 | 题量 |
+|---|---|---|
+| v1.1（最新） | `guowang-computer-quiz-v1.1.apk` | 17136 题（OCR 全量题库，含大量无答案题） |
+| v1.0 | `guowang-computer-quiz-v1.0.apk` | 4562 题（含答案为主） |
 
 > 首次安装系统会提示「未知来源应用」，在设置中允许安装即可（自签名 APK 的正常提示）。
 
@@ -168,7 +173,8 @@ guowang-computer-quiz/
 │   ├── build.gradle / settings.gradle
 │   └── gen_icon.py             # 图标生成脚本
 ├── release/
-│   └── guowang-computer-quiz-v1.0.apk   # ⭐ 成品安装包（~3MB）
+│   ├── guowang-computer-quiz-v1.1.apk   # ⭐ 最新成品（~4MB，17136 题）
+│   └── guowang-computer-quiz-v1.0.apk   # 上一版（~3MB，4562 题）
 ├── screenshots/                # README 截图
 └── gen_screenshots.py          # 截图自动生成脚本（Edge headless）
 ```
